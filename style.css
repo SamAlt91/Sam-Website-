@@ -12,6 +12,36 @@ body {
     overflow: hidden;
 }
 
+/* General styling for images */
+img {
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains the image's aspect ratio */
+    border-radius: 10px; /* Adds rounded corners (optional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow (optional) */
+    transition: transform 0.3s ease; /* Smooth effect on hover */
+}
+
+/* Add a hover effect for the image */
+img:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+}
+
+/* Additional styling for specific images by class */
+.responsive-image {
+    width: 80%; /* Adjust width specifically for images with this class */
+    max-width: 600px; /* Limit the maximum width */
+}
+
+/* Adjust images for smaller screens using a media query */
+@media (max-width: 768px) {
+    img {
+        max-width: 90%; /* Images take up most of the screen width */
+        border-radius: 5px; /* Reduce corner rounding on smaller screens */
+    }
+}
+
 header {
     background: #4CAF50;
     color: #fff;
