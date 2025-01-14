@@ -16,7 +16,7 @@ body {
 img {
     display: block; /* Ensures proper alignment */
     margin: 0 auto; /* Center the image */
-    max-width: 70%; /* Makes the image responsive */
+    max-width: 50%; /* Makes the image responsive */
     height: auto; /* Maintains the image's aspect ratio */
     border-radius: 10px; /* Adds rounded corners (optional) */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow (optional) */
@@ -30,8 +30,8 @@ img:hover {
 
 /* Additional styling for specific images by class */
 .responsive-image {
-    width: 70%; /* Adjust width specifically for images with this class */
-    max-width: 400px; /* Limit the maximum width */
+    width: 50%; /* Adjust width specifically for images with this class */
+    max-width: 200px; /* Limit the maximum width */
 }
 
 /* Adjust images for smaller screens using a media query */
