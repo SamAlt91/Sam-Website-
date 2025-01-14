@@ -9,7 +9,7 @@ body {
 
 .container {
     width: 80%;
-    margin: 10px 5px;
+    margin: auto;
     overflow: hidden;
 }
 
@@ -44,7 +44,7 @@ img:hover {
 }
 
 header {
-    background-color: aquagreen; /* Background color */
+    background-color: lightgreen; /* Background color */
     color: white;               /* Text color */
     padding: 20px 0;
     text-align: center;
