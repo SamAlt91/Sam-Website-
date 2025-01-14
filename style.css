@@ -85,3 +85,46 @@ footer a {
     color: #4CAF50;
     text-decoration: none;
 }
+
+#photography {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+#photography h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 0;
+}
+
+.photo-grid a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.photo-grid a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.photo-grid a:hover img {
+  transform: scale(1.1);
+}
