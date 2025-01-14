@@ -2,14 +2,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: darkblue; /* Background color */
-    color: white;               /* Text color */
+    background-color: lightblue; /* Background color */
+    color: red;               /* Text color */
     line-height: 1.0;
 }
 
 .container {
     width: 80%;
-    margin: 20px;
+    margin: 10px 5px;
     overflow: hidden;
 }
 
@@ -44,7 +44,7 @@ img:hover {
 }
 
 header {
-    background-color: darkgreen; /* Background color */
+    background-color: aquagreen; /* Background color */
     color: white;               /* Text color */
     padding: 20px 0;
     text-align: center;
