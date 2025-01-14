@@ -2,14 +2,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: lightblue; /* Background color */
+    background-color: darkblue; /* Background color */
     color: white;               /* Text color */
     line-height: 1.0;
 }
 
 .container {
     width: 80%;
-    margin: auto;
+    margin: 20px;
     overflow: hidden;
 }
 
@@ -44,7 +44,7 @@ img:hover {
 }
 
 header {
-    background-color: lightblue; /* Background color */
+    background-color: darkgreen; /* Background color */
     color: white;               /* Text color */
     padding: 20px 0;
     text-align: center;
@@ -52,7 +52,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 header p {
