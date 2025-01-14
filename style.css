@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: lightblue; /* Background color */
-    color: red;               /* Text color */
+    background-color: #a2d9ce ; /* Background color */
+    color: black;               /* Text color */
     line-height: 1.0;
 }
 
@@ -44,8 +44,8 @@ img:hover {
 }
 
 header {
-    background-color: lightgreen; /* Background color */
-    color: white;               /* Text color */
+    background-color: #d7dbdd ; /* Background color */
+    color: black;               /* Text color */
     padding: 20px 0;
     text-align: center;
 }
