@@ -43,8 +43,8 @@ img:hover {
 }
 
 header {
-    background: #4CAF50;
-    color: #fff;
+    background-color: lightblue; /* Background color */
+    color: white;               /* Text color */
     padding: 20px 0;
     text-align: center;
 }
